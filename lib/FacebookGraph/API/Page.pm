@@ -22,7 +22,7 @@ sub _init {
     my $self = shift;
     my $ua = LWP::UserAgent->new;
     $ua->timeout(10);
-    $ua->agent('MTCMS FacebookGraph plugin/' . $MT::Plugin::FacebookGraph::VERSION . '(http://mtcms.jp)');
+    $ua->agent('MTCMS FacebookGraph plugin/' . $MT::Plugin::FacebookGraph::VERSION . '(https://github.com/onagatani)');
     $self->ua($ua);
 }
 
